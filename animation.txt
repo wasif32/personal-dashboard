@@ -1,0 +1,63 @@
+CSS Framework
+Tailwind CSS
+The entire project uses Tailwind CSS for styling, which provides:
+
+Utility Classes:
+
+Flexbox: flex, items-center, justify-between
+Grid: grid, grid-cols-1, gap-6
+Spacing: p-6, mb-6, gap-3
+Typography: text-xl, font-semibold
+Colors: text-dashboard-blue, bg-gray-50
+Responsive design: md:grid-cols-2, lg:px-24
+Custom Theme Configuration:
+
+Custom color palette in tailwind.config.ts:
+dashboard: {
+  'blue': '#3b82f6',
+  'dark-blue': '#1e40af',
+  'light-blue': '#93c5fd',
+  'accent': '#22d3ee'
+}
+Animations and Visual Effects
+Custom Animations (defined in tailwind.config.ts):
+
+animate-fade-in: Subtle fade-in animation for content elements
+animate-slide-in: Elements slide in from the side
+Staggered animations with delay: style={{ animationDelay: ${skill.id * 100}ms }}
+Visual Effects:
+
+Progress bars with gradient colors
+Border effects: border-b, rounded-lg
+Shadow effects: shadow-md
+Opacity variations: bg-opacity-20
+Hover states: hover:bg-green-600
+Layout Techniques
+Responsive Grid System:
+
+Mobile-first design with breakpoints: grid-cols-1 md:grid-cols-2
+Container constraints: container mx-auto
+Flexible spacing: space-y-5, gap-6
+Card-based Layout:
+
+Consistent card components for content grouping
+Nested card layouts for complex information
+Cards with headers, content sections, and footers
+Timeline Design:
+
+Custom timeline styling with dots and connecting lines
+Relative positioning for timeline elements
+Typography System
+Custom Fonts:
+
+Google Fonts integration: Inter and Poppins
+Font family configuration in tailwind.config.ts:
+fontFamily: {
+  sans: ['Inter', 'sans-serif'],
+  heading: ['Poppins', 'sans-serif']
+}
+Consistent Text Styling:
+
+Section titles: text-2xl md:text-3xl font-bold
+Card headers: text-xl font-semibold
+Content text: text-gray-600

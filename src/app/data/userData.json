@@ -1,0 +1,157 @@
+{
+  "name": "Wasif Khan",
+  "bio": "A passionate full-stack web developer with a love for clean design and modern technologies.",
+  "email": "khanwasif565@gmail.com",
+  "linkedin": "linkedin.com/in/wasif-khan-713a40246",
+  "github": "https://github.com/wasif32",
+  "website": "https://wasif32.github.io/personal-portfolio/",
+  "phone": "+91 8928337736",
+  "imageUrl":"/myimage.jpg",
+  "education": [
+    {
+      "degree": "B.E. IT",
+      "institution": "Terna Engineering College",
+      "year": "2020 - 2024",
+      "cgpa": "8.24"
+    },
+    {
+      "degree": "MSBSHSE (Class XII)",
+      "institution": "B.J.PC",
+      "year": "2019 - 2020",
+      "percentage": "79.07%"
+    },
+    {
+      "degree": "AISSE (Class X)",
+      "institution": "Central Academy",
+      "year": "2017 - 2018",
+      "percentage": "79.40%"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Full Stack Development Intern",
+      "company": "Solar Secure Solutions",
+      "year": "2023",
+      "duration": "May - Jul",
+      "description": "Built responsive web apps with HTML, Tailwind CSS, and JavaScript, enhancing user engagement. Developed scalable backend services using Node.js and Express.js for seamless integration. Optimized full-stack code to boost performance and reduce load times. • Managed version control and team collaboration using Git."
+    },
+    {
+      "title": "Web Development Intern",
+      "company": "CodeClause",
+      "year": "2023",
+      "duration": "Mar - Apr",
+      "description": "Developed a responsive website for a restaurant using HTML, CSS, and JavaScript. Implemented features like menu display, reservation form, and contact information. Ensured cross-browser compatibility and optimized performance for a seamless user experience."
+    },
+    {
+      "title": "Web Development Intern",
+      "company": "LetsGrowMore",
+      "year": "2023",
+      "duration": "Feb - Mar",
+      "description": "Contributed to a team project focused on developing a responsive website for a restaurant. Utilized HTML, CSS, and JavaScript to create an engaging user interface. Collaborated with team members to implement features such as menu display, reservation form, and contact information. Ensured cross-browser compatibility and optimized performance for a seamless user experience."
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      { "name": "C", "level": 50 },
+      { "name": "C++", "level": 55 },
+      { "name": "JavaScript", "level": 60 },
+      { "name": "TypeScript", "level": 50 },
+      { "name": "Python", "level": 65 }
+    ],
+    "Frameworks": [
+      { "name": "React.js", "level": 70 },
+      { "name": "Next.js", "level": 70 },
+      { "name": "Angular", "level": 65 },
+      { "name": "Node.js", "level": 70 },
+      { "name": "Express.js", "level": 75 },
+      { "name": "Flask", "level": 60 },
+      { "name": "GraphQL", "level": 68 },
+      { "name": "REST API", "level": 84 }
+    ],
+    "Design and UI Tools": [
+      { "name": "HTML", "level": 95 },
+      { "name": "CSS", "level": 80 },
+      { "name": "Tailwind CSS", "level": 80 },
+      { "name": "Shadcn UI", "level": 70 }
+    ],
+    "Developer Tools": [
+      { "name": "Git", "level": 80 },
+      { "name": "GitHub", "level": 78 },
+      { "name": "Docker", "level": 65 },
+      { "name": "Postman", "level": 70 }
+    ],
+    "Databases": [
+      { "name": "MongoDB", "level": 75 },
+      { "name": "MySQL", "level": 60 }
+    ]
+  },
+  "personal": {
+    "hobbies": [
+      {
+        "id": "h1",
+        "name": "Reading",
+        "description": "Exploring new worlds and ideas through books.",
+        "icon": "Book"
+      },
+      {
+        "id": "h2",
+        "name": "Coding",
+        "description": "Building digital solutions and exploring technology.",
+        "icon": "Code"
+      },
+      {
+        "id": "h3",
+        "name": "Photography",
+        "description": "Capturing moments and perspectives.",
+        "icon": "Camera"
+      }
+    ],
+    "goals": [
+      {
+        "id": "g1",
+        "title": "Master ElectronJS",
+        "description": "Deepen understanding of ElectronJS and best practices.",
+        "targetDate": "2026-01-01"
+      },
+      {
+        "id": "g2",
+        "title": "Contribute to Open Source",
+        "description": "Make meaningful contributions to open source projects.",
+        "targetDate": "2025-12-31"
+      }
+    ]
+  },
+  "certifications": [
+    {
+      "title": "Web Development",
+      "organization": "Internshala Trainings",
+      "url": "https://trainings.internshala.com/s/v/2646530/991aec5e"
+    },
+    {
+"title": "Introduction to Data Science",
+      "organization": "Internshala Trainings",
+      "url": "https://trainings.internshala.com/view_certificate/afcdnxjyrxc/h4sux4a1yym/"
+    }
+  ],
+  "projects": [
+    {
+      "title": "MedPredict- Multiple Disease Detection System",
+      "technologies": "Python, React, Flask",
+      "url": "https://github.com/wasif32/chatsecure",
+      "description": "Built a robust disease prediction system using advanced machine learning algorithms such as Random Forest with ACO, Hybrid Logistic Regression + Decision Trees, SVM, and Stacked Ensemble Models. Developed a secure and intuitive interface using React enabling smooth patient data entry and displaying real-time disease predictions. Focused on model accuracy, data privacy, and user experience, ensuring trustworthy and actionable health insights.",
+      "date": "May'2023-Jul'2023"
+    },
+    {
+      "title": "GenAi - Al Image Generator Web App",
+      "technologies": "MERN Stack",
+      "url": "https://github.com/wasif32/GenAi",
+      "description": "Developed an Al image generator using Stable Diffusion Model. Tracked generated image history for users with MongoDB. Integrated Hugging Face Inference API for Al image generation."
+    },
+    {
+      "title": "Digital Guest Onboarding System",
+      "technologies": "MERN Stack",
+      "url": "https://github.com/wasif32/Digital-Guest-Onboarding",
+      "description": "Developed a role-based system with separate panels for Main Admin and Guest Admin. Added JWT auth, bcrypt encryption, and QR code-based guest data collection. Enabled guest data CRUD, editable records, and printable reports with Express.js backend."
+    }
+  ]
+}
